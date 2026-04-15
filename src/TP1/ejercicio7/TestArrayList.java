@@ -46,7 +46,7 @@ public class TestArrayList {
 	// d
 	public static void operacionesConListas () {
 		
-		List <Estudiante> listA = new LinkedList<>();
+		List <Estudiante> listA = new LinkedList<>(); // repo
 		
 		listA.add(new Estudiante("Pepe"));
 		listA.add(new Estudiante("Rodirgo"));
@@ -65,6 +65,8 @@ public class TestArrayList {
 	    System.out.println("Después de modificar:");
 	    System.out.println("Original: " + listA);
 	    System.out.println("Copia: " + listB);
+	    
+	    
 		
 	}
 	
