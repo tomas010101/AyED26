@@ -1,13 +1,15 @@
 package TP1.ejercicio8;
 
-public class CircularQueue extends Queue {
+public class CircularQueue <T> extends Queue <T> {
 	
-	 public CircularQueue() {
+	 protected CircularQueue() {
 	        super();
 	    }
 	
 	public T shift() {
-		
+		T elemento = dequeue();
+		enqueue(elemento);
+		return elemento;
 		
 	}
 }

@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Queue <T> {
 	
-	private LinkedList <T> cola = new LinkedList<>();
+	protected LinkedList <T> cola = new LinkedList<>();
 	
 	Queue (){
 		
